@@ -1,0 +1,101 @@
+body {
+	background-color: cornsilk;
+}
+
+#calc_body{
+	width:245px;
+	height:285px; 
+	background-color: yellow;
+	border: 1px #000 solid;
+	border-radius: 20px;
+	margin: auto;
+}
+
+#window_calc{
+	width:	230px;
+	height:	25px;
+	margin-top:	10px;
+	margin-left: 6px; 
+	margin-bottom:	10px;
+	line-height:	25px; 
+	text-align:	right; 
+	font-size:	20px;
+	background-color:	#fff;
+	border: 1px #000 solid;
+	border-radius: 20px;
+	color: #f500ff;
+	font-weight: bold;
+}
+
+.buttons_calc{
+	width: 50px;
+	height: 50px; 
+	margin-top: 5px;
+	margin-left: 7px;
+	line-height: 50px;
+	text-align: center;
+	background-color: #FFF;
+	border: 1px #000 solid;
+	border-radius: 20px; 
+	display: inline-block;
+	transition: 0.5s;
+}
+
+.buttons_calc:hover, 
+.buttons_cals:active{ 
+	background-color: #FEFACB;
+	cursor:pointer;
+	background-color: #f500ff;
+	color: #fff;
+	border: 1px solid #fff;
+}
+
+#delit:hover,
+#delit:active {
+	background-color: #007c0a;
+	color: #fff;
+	
+}
+
+#umnojit:hover, 
+#umnojit:active {
+	background-color: #b7b71b;
+	color: #fff;
+}
+
+#minus:hover,
+#minus:active {
+	background-color: blue;
+	color: #fff;
+}
+
+#plus:hover,
+#plus:active {
+	background-color: red;
+	color: #fff;
+}
+
+#ruvno:hover,
+#ruvno:active {
+	background-color: orange;
+	color: #fff;
+}
+
+#clear:hover,
+#clear:active {
+	background-color: #000;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
